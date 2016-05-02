@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+.sections,.section{
+	width:100%;
+	height:100%;
+}
+.section1{
+	position:relative;
+	background:#f5f5f5;
+	
+}
+.section1 .topnav{
+	width:100%;
+	height:39px;
+	border-bottom:1px solid #e5e5e5;
+}
+.section1 .content{
+	width:100%;
+	height:39px;
+	line-height:39px;
+	margin-left:20px;
+}
+.section1 .content a{
+	font-size:12px;
+	color:#717171;
+	display:inline-block;
+	height:38px;
+	width:30px;
+	text-align:center;
+	text-decoration:none;
+}
+.section1 .page1{
+	position:relative;
+	width:1000px;
+	height:500px;
+	margin:60px auto 0;
+	background:url('../img/wz_1.jpg') no-repeat center;
+	background-size:55%;
+}
+.logo{
+	
+	margin:0 auto;
+	width:115px;
+	height:118px;
+}
+.logo img{width:100%;}
+
+
+.page1 .down{
+	position:absolute;
+	left:36%;
+	top: 42%;
+}
+.page1 .down a{
+	text-decoration:none;
+	color:#aaa;
+	font-size:14px;
+	margin-left:5px;
+}
+
+.section1 .content a:hover{
+	border-bottom:1px solid gray;
+}
+.active{
+	border-bottom:1px solid gray;
+}
+.section2{
+	background:#18c8f6 url("../img/title2.png") no-repeat left center;
+	
+}
+
+.topfix{
+	position:fixed;
+	left:6%;
+	top: 8%;
+	width:100%;
+	height:10%;
+	z-index:99;
+	overflow:hidden;
+}
+.tool_logo{
+	position:absolute;
+}
+.tool_logon img{
+	width:100%; 
+}
+.down8{
+	margin-left:20px;
+	position:absolute;
+	left:200px;
+}
+ .down8 img{
+	width:100%;
+}
+.section2 .page2right{
+	width:50%;
+	height:100%;
+	position:relative;
+	float:right;
+	/* margin:50px 50% 0; */
+}
+.page2right .layer1{
+	position:absolute;
+	width:873px;
+	height:755px;
+	background:url("../img/layer1.png") no-repeat center;
+}
+.page2right .layer2{
+	position:absolute;
+	left:280px;
+	top:300px;
+	width:203px;
+	height:188px;
+	background:url("../img/layer2.png") no-repeat center;
+}
+.page2right .layer3{
+	position:absolute;
+	left:190px;
+	top:220px;
+	width:308px;
+	height:270px;
+	background:url("../img/layer3.png") no-repeat center;
+}
+.page2right .layer4{
+	position:absolute;
+	left:130px;
+	top:60px;
+	width:450px;
+	height:390px;
+	background:url("../img/layer4.png") no-repeat center;
+}
+
+
+.section3{
+	background:#ff6869 url("../img/wz_2.jpg") no-repeat center center;
+	background-size:contain;
+}
+.section3 .ee-logo{
+	width:11%;
+	height:3%;
+	position:absolute;
+	top:49%;
+	left:32%;
+	background:url("../img/ee-text.jpg") no-repeat right top;
+	opacity:0;
+}
+.section3 .hand{
+	width:176px;
+	height:236px;
+	background:url("../img/hand_new.png") no-repeat left top;
+	position:absolute;
+	left: 40%;
+	top:49%;
+}
+.section4{
+	width:1400px;
+	height:900px;
+	margin:0 auto;
+	background:#35da7b url("../img/bg6.jpg") no-repeat left center;
+}
+.section4 div{
+	width:400px;
+	height:22px;
+	background:#35da7b url("../img/pointer.png") no-repeat  center;
+	position:absolute;
+	left: 27%;
+	top:75%;
+}
+
+.zhenRotate{
+	-webkit-animation:zRotate 1s ease-in-out forwards;
+}
+@-webkit-keyframes zRotate{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(130deg);}
+}
+
+.zheRotate{
+	-webkit-animation:zheRotate 0.3s linear infinite;
+}
+@-webkit-keyframes zheRotate{
+	0%{transform:rotate(127deg);}
+	100%{transform:rotate(130deg);}
+}
+
+.zReversRo{
+	-webkit-animation:zReversRotate 1s linear;
+}
+@-webkit-keyframes zReversRotate{
+	0%{transform:rotate(130deg);}
+	100%{transform:rotate(0deg);}
+}
